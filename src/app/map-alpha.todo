@@ -1,0 +1,17 @@
+Map-Alpha:
+    ☐ add message component for debugging purposes
+    ☐ on app template change shading of Map and Directory buttons according to
+    what page is being displayed
+
+    map component:
+        ✔ add leaflet map with just basemap @done (11/30/2017, 12:45:51 PM)
+        ✔ secure token to separate constant in a file (like youtube tutorial did) @done (11/30/2017, 1:37:05 PM)
+        ☐ debug why not plotting coordinates @critical 
+        ☐ plot coordinates from directory - do I need a geojson extract command?
+    map-details-component:
+        ☐ figure out how to embed map component and communicate ID value to it
+    search component:
+        ☐ create
+    details component:
+        ☐ remove "save" button
+
