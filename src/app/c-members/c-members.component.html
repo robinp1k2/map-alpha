@@ -1,0 +1,8 @@
+<h2>Chamber Members</h2>
+<ul class="heroes">
+  <li *ngFor="let cMember of cMembers">
+    <a routerLink="/detail/{{cMember.id}}">
+      <span class="badge">{{cMember.id}}</span> {{cMember.name}}
+    </a>
+  </li>
+</ul>

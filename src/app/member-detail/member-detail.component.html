@@ -1,0 +1,9 @@
+<div *ngIf="myBiz">
+    <h2>{{ myBiz.name | uppercase }} Details</h2>
+    <div><span>id: </span>{{myBiz.id}}</div>
+    <div><span>name: </span>{{myBiz.name}}</div>
+    <div><span>lat: </span>{{myBiz.lat}}</div>
+    <div><span>lon: </span>{{myBiz.lon}}</div>
+    <button (click)="goBack()">go back</button>
+    <button (click)="save()">save</button>
+</div>
