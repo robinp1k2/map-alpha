@@ -1,17 +1,24 @@
 Map-Alpha:
-    ☐ add message component for debugging purposes
-    ☐ on app template change shading of Map and Directory buttons according to
-    what page is being displayed
-
+    ☐ add message component for debugging purposes (and remove console.log) @low 
+    ☐ on app template change shading of Map and Directory buttons by selection
+    ☐ work on pop-ups more http://leafletjs.com/examples/quick-start/ 
+    ☐ publish to github pages: https://pages.github.com/ , https://help.github.com/categories/github-pages-basics/
+    
     map component:
         ✔ add leaflet map with just basemap @done (11/30/2017, 12:45:51 PM)
         ✔ secure token to separate constant in a file (like youtube tutorial did) @done (11/30/2017, 1:37:05 PM)
-        ☐ debug why not plotting coordinates @critical 
-        ☐ plot coordinates from directory - do I need a geojson extract command?
+        ✔ debug why not plotting coordinates @critical @done (11/30/2017, 5:03:09 PM)
+        ✔ plot coordinates from directory @done (11/30/2017, 5:03:16 PM)
+        ✔ figure out how to plot the businesses after the data is retrieved...hmmm @critical @done (11/30/2017, 9:37:45 PM)
+        ☐ find a bounding box for the data and set the map to center on that
     map-details-component:
-        ☐ figure out how to embed map component and communicate ID value to it
+        ✔ create map-details component @today @done (12/1/2017, 10:16:54 PM)
+        ✔ figure out how to embed map component and communicate ID value to it @done (12/1/2017, 10:16:58 PM)
+        ☐ change business details hyperlink to a large button (think mobile)
     search component:
-        ☐ create
+        ☐ create search component
+        ☐ remove all console log writes
     details component:
-        ☐ remove "save" button
+        ✔ remove "save" button @done (12/2/2017, 11:56:00 AM)
+        ✔ the "go back" button broke @done (12/2/2017, 11:55:58 AM)
 

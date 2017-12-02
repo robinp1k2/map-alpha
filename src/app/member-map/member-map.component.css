@@ -1,1 +1,3 @@
-#mapid { height: 180px; }
+/* @import url("https://unpkg.com/leaflet@1.2.0/dist/leaflet.css"); */
+/* @import './../../../node_modules/leaflet/dist/leaflet.css';  */
+#mainMap { height: 360px; }

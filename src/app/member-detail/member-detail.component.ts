@@ -29,4 +29,7 @@ export class MemberDetailComponent implements OnInit {
       .subscribe(aBusiness => this.myBiz = aBusiness);
   }
 
+  goBack(): void {
+    this.location.back();
+  }
 }

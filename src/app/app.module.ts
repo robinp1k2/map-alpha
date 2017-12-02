@@ -10,13 +10,15 @@ import { MemberDetailComponent } from './member-detail/member-detail.component';
 import { MemberMapComponent } from './member-map/member-map.component';
 import { AppRoutingModule } from './/app-routing.module';
 import { BusinessService } from './business.service';
+import { MemberDetailMapComponent } from './member-detail-map/member-detail-map.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     CMembersComponent,
     MemberDetailComponent,
-    MemberMapComponent
+    MemberMapComponent,
+    MemberDetailMapComponent
   ],
   imports: [
     BrowserModule,
